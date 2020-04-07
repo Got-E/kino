@@ -9,8 +9,10 @@
     "autoprefixer": "^9.7.6",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "node-sass": "^4.13.1",
@@ -18,7 +20,11 @@
     "stylelint-config-htmlacademy": "^0.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp css",
+    "start": "gulp start"
   },
   "repository": {
     "type": "git",
