@@ -1,0 +1,33 @@
+{
+  "name": "kino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.1",
+    "stylelint": "^13.3.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Got-E/kino.git"
+  },
+  "author": "Dankov OO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Got-E/kino/issues"
+  },
+  "homepage": "https://github.com/Got-E/kino#readme"
+}
