@@ -1,0 +1,11 @@
+.favorites  {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: $main-color;
+  border-radius: 50%;
+}

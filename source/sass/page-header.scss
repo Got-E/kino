@@ -1,0 +1,72 @@
+.page-header__wrap {
+  width: 1660px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.page-header__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  &--button {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 535px;
+  }
+}
+
+.page-header__main-nav {
+  width: 1390px;
+}
+
+.page-header__logo {
+  margin-right: 18px;
+}
+
+.page-header__social {
+  margin-left: 49px;
+  padding-top: 25px;
+}
+
+.page-header__favorites {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+@font-face {
+  font-family: "AA Haymaker";
+  src: url("../fonts/AA Haymaker.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-header__title {
+  display: block;
+  width: 725px;
+  margin-top: 250px;
+  margin-left: 440px;
+  margin-bottom: 0;
+  font-family: "AA Haymaker", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-el;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-header__slogan {
+  margin-top: 37px;
+  font-family: "Basic", "Arial", sans-serif;
+  color: $blak;
+  text-align: center;
+  font-size: $font-size-xl;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.page-header__link {
+  flex: none;
+  width: 227px;
+  height: 55px;
+}
