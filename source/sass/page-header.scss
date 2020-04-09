@@ -10,9 +10,9 @@
   margin-top: 40px;
 
   &--button {
-    margin: 0 auto;
-    margin-top: 80px;
-    width: 535px;
+    margin-top: 84px;
+    margin-left: 551px;
+    width: 534px;
   }
 }
 
@@ -25,27 +25,20 @@
 }
 
 .page-header__social {
-  margin-left: 49px;
-  padding-top: 25px;
+  margin-left: 48px;
+  padding-top: 22px;
 }
 
 .page-header__favorites {
-  margin-top: 25px;
-  margin-right: 20px;
-}
-
-@font-face {
-  font-family: "AA Haymaker";
-  src: url("../fonts/AA Haymaker.ttf");
-  font-weight: 400;
-  font-style: normal;
+  margin-top: 23px;
+  margin-right: 19px;
 }
 
 .page-header__title {
   display: block;
-  width: 725px;
-  margin-top: 250px;
-  margin-left: 440px;
+  width: 870px;
+  margin-left: 387px;
+  margin-top: 248px;
   margin-bottom: 0;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: $blak;
@@ -53,16 +46,16 @@
   line-height: 1.1em;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 6px;
 }
 
 .page-header__slogan {
-  margin-top: 37px;
+  margin-top: 34px;
+  margin-left: 554px;
   font-family: "Basic", "Arial", sans-serif;
   color: $blak;
-  text-align: center;
   font-size: $font-size-xl;
   text-transform: uppercase;
-  letter-spacing: 10px;
 }
 
 .page-header__link {

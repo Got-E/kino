@@ -1,0 +1,52 @@
+.info {
+  padding-top: 262px;
+  padding-bottom: 400px;
+}
+
+.info__wrap {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 128px;
+  padding-left: 643px;
+  width: 1416px;
+  min-height: 700px;
+  color: $white;
+  background: $main-color-big;
+  opacity: 85%;
+}
+
+.info__logo-image {
+  position: absolute;
+  left: 150px;
+  top: 185px;
+}
+
+.info__title {
+  margin: 0;
+  font-family: "Dots", "Arial", sans-serif;
+  font-size: $font-size-vl;
+  line-height: 1em;
+}
+
+.info__subtitle {
+  margin-top: 11px;
+  margin-left: 11px;
+  font-family: "Basic", "Arial", sans-serif;
+  font-size: $font-size-xxl;
+  line-height: 2.654em;
+  letter-spacing: 3px;
+}
+
+.info__content {
+  margin-top: 67px;
+  margin-left: 16px;
+  width: 600px;
+  line-height: 1.666em;
+}
+
+.info__link {
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 252px;
+  height: 48px;
+}

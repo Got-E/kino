@@ -1,14 +1,20 @@
 // цвета
 $main-color: linear-gradient(to right, #ffec46 0%, #ff6000 40%, #ff475c 50%, #ff3c87 70%, #c10cb6 100%);
+$main-color-invers: linear-gradient(to left, #ffec46 0%, #ff6000 40%, #ff475c 50%, #ff3c87 70%, #c10cb6 100%);
+$main-color-big: linear-gradient(to bottom right, #f0e749 0%, #f08c2e 30%, #f28138 35%, #f76553 47%, #fe4672 55%, #d42980 75%, #b3128b 85%, #a00492 95%, #990095 100%);
 $main-grey: #707070;
+$dark-grey: #4b4b4b;
 $white: #ffffff;
 $blak: #000000;
 
 // шрифты
+$font-size-xs: 15px;
 $font-size-s: 16px;
 $font-size: 18px;
 $font-size-xl: 23px;
+$font-size-xxl: 26px;
 $font-size-el: 90px;
+$font-size-vl: 72px;
 $line-height: 20px;
 
 // размеры
