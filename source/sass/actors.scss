@@ -1,0 +1,45 @@
+.actors {
+  padding-bottom: 175px;
+}
+
+.actors__back {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 14px;
+  padding-top: 78px;
+}
+
+.actors__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.actors__title {
+  margin-top: 37px;
+  font-family: "AA Haymaker", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-sl;
+  line-height: 1.333em;
+  text-transform: uppercase;
+  letter-spacing: 6.1px;
+  text-align: center;
+}
+
+.actors__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1176px;
+  margin-bottom: 36px;
+}
+
+.actors__card {
+  margin-bottom: 60px;
+}
+
+.actors__link {
+  margin: 0 auto;
+  width: 328px;
+  height: 55px;
+}

@@ -1,0 +1,40 @@
+.actors-card {
+  position: relative;
+}
+
+.actors-card__inner {
+  display: flex;
+}
+
+.actors-card__title {
+  margin: 0;
+  margin-top: 13px;
+  font-family: "Basic", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-xxs;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.actors-card__age {
+  margin: 0;
+  margin-top: 5px;
+  font-size: $font-size-xxxs;
+  font-weight: 600;
+  color: $blak;
+}
+
+.actors-card__place {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 26px;
+  font-size: $font-size-xxxs;
+  font-weight: 600;
+  color: $blak;
+}
+
+.actors-card__favorites {
+  position: absolute;
+  top: 361px;
+  right: 18px;
+}

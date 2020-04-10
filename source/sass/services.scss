@@ -1,0 +1,40 @@
+.services__title {
+  margin-top: 242px;
+  margin-bottom: 0;
+  font-family: "AA Haymaker", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-sl;
+  line-height: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1640px;
+}
+
+.services__card {
+  width: 318px;
+  padding-top: 187px;
+  padding-bottom: 150px;
+}
+
+.services__subtitle {
+  margin: 0;
+  font-family: "Basic", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-xxl;
+  line-height: 1.346em;
+  text-transform: uppercase;
+}
+
+.services__content {
+  margin-top: 13px;
+  padding-left: 63px;
+  font-size: $font-size-xxs;
+  line-height: $line-height;
+}

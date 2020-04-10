@@ -37,4 +37,12 @@
     background: $white;
     border: solid 1px $main-grey;
   }
+
+  &--pink {
+    padding-top: 10px;
+    font-size: $font-size-xxxs;
+    color: $pink;
+    background: $white;
+    border: solid 1px $pink;
+  }
 }

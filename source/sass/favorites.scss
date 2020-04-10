@@ -8,4 +8,9 @@
   overflow: hidden;
   background-color: $blak;
   border-radius: 50%;
+
+  &--card {
+    width: 35px;
+    height: 35px;
+  }
 }

@@ -1,0 +1,59 @@
+.mentors__header {
+  margin: 0 auto;
+  width: 1560px;
+  min-height: 500px;
+  padding-top: 167px;
+}
+
+.mentors__title {
+  width: 500px;
+  font-family: "AA Haymaker", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-sl;
+  line-height: 1.333em;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 6px;
+}
+
+.mentors__back {
+  width: 100%;
+  height: 442px;
+  margin-bottom: -320px;
+  background: $main-color-back;
+}
+
+.mentors__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 235px;
+  width: 1560px;
+}
+
+.mentors__card {
+  width: 250px;
+}
+
+.mentors__name {
+  margin: 0;
+  margin-top: 23px;
+  font-size: $font-size-s;
+  color: $blak;
+  text-align: center;
+}
+
+.mentors__info {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: $font-size-xxxs;
+}
+
+.mentors__link {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 142px;
+  height: 38px;
+}
