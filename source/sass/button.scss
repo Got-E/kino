@@ -25,4 +25,16 @@
     background: $white;
     letter-spacing: 0.5px;
   }
+
+
+  &--small {
+    padding-top: 12px;
+    font-size: $font-size-xs;
+  }
+
+  &--bord {
+    color: $main-grey;
+    background: $white;
+    border: solid 1px $main-grey;
+  }
 }

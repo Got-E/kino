@@ -10,8 +10,8 @@
   margin-top: 40px;
 
   &--button {
+    margin: 0 auto;
     margin-top: 84px;
-    margin-left: 551px;
     width: 534px;
   }
 }
@@ -37,8 +37,8 @@
 .page-header__title {
   display: block;
   width: 870px;
-  margin-left: 387px;
-  margin-top: 248px;
+  margin-left: 397px;
+  margin-top: 250px;
   margin-bottom: 0;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: $blak;
@@ -50,12 +50,12 @@
 }
 
 .page-header__slogan {
-  margin-top: 34px;
-  margin-left: 554px;
+  margin-top: 36px;
   font-family: "Basic", "Arial", sans-serif;
   color: $blak;
   font-size: $font-size-xl;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .page-header__link {
