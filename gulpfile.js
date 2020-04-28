@@ -8,7 +8,8 @@ var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 var csso = require("gulp-csso");
-var rename = require("gulp-rename")
+var rename = require("gulp-rename");
+var del = require("del");
 
 gulp.task("css", function() {
   return gulp.src("source/sass/style.scss")
@@ -19,10 +20,27 @@ gulp.task("css", function() {
       autoprefixer()
     ]))
     .pipe(csso())
-    // .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("source/css"))
     .pipe(server.stream());
+});
+
+gulp.task("clean", function () {
+  return del("docs")
+});
+
+gulp.task("copy", function () {
+  return gulp.src ([
+    "source/*.html",
+    "source/css/*.css",
+    "source/fonts/**",
+    "source/img/**",
+    "source/js/**",
+    "source/*.ico"
+  ], {
+    base: "source"
+  })
+  .pipe(gulp.dest("docs"));
 });
 
 gulp.task("server", function() {
@@ -38,4 +56,4 @@ gulp.task("server", function() {
   gulp.watch("source/*.html").on("change", server.reload);
 });
 
-gulp.task("start", gulp.series("css", "server"));
+gulp.task("start", gulp.series("clean", "copy", "css", "server"));

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "del": "^5.1.0"
+  },
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^9.7.6",
@@ -23,8 +25,10 @@
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig && npm run stylelint",
-    "build": "gulp css",
-    "start": "gulp start"
+    "start": "gulp start",
+    "css": "gulp css",
+    "copy": "gulp copy",
+    "clean": "gulp clean"    
   },
   "repository": {
     "type": "git",
