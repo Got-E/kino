@@ -10,6 +10,7 @@
 
 </head>
 
+
 <body>
   <header class="page-header">
     <div class="page-header__wrap">
@@ -65,7 +66,7 @@
         <p class="info__subtitle">Наша миссия</p>
         <P class="info__content">Главная задача студии – раскрыть у каждого ребенка творческий потенциал, свободно выражать свои мысли и чувства, развить пластику тела, легко импровизировать в любой жизненной ситуации.</P>
         <div class="info__link">
-          <a href="#" class="button button--white">Подробно о студии</a>
+          <a href="#" class="button button--transparent">Подробно о студии</a>
         </div>
       </div>
     </section>
@@ -301,67 +302,104 @@
       <div class="review__wrap">
         <h2 class="review__title">Отзывы</h2>
         <div class="review__inner">
-          <p class="review__quote">Хочется выразить благодарность детской киностудии за их вклад в развитие детей. Здесь они могут выплеснуть свою энергию. На занятиях через игру запускаются важнейшие для ребенка механизмы, активируется работа мозга,
+          <p class="review__quote">Хочется выразить благодарность детской киностудии за их вклад в развитие детей. Здесь&nbsp;они могут выплеснуть свою энергию. </p>
+          <p class="review__quote">На занятиях через игру запускаются важнейшие для ребенка механизмы, активируется работа мозга,
             а именно ребенок учится управлять своим телом, узнает новые возможности своего органщика. Дети за время обучения раскрываются, становятся более раскованными. В студии царит дружественная и очень теплая атмосфера. Огромное спасибо нашему
             преподавателю Ольге за ее внимательное и доброжелательное отношение к детям.</p>
-          <p class="review__author">Наталья Зуева</p>
+          <div class="review__card">
+            <img src="http://placehold.it/140x140" alt="НАталья зуева" class="review__avatar">
+            <p class="review__author">Наталья Зуева</p>
+          </div>
         </div>
-        <div class="review__control">Лево</div>
-        <div class="review__control">Право</div>
+        <div class="review__inner none">
+          <p class="review__quote">Хочется выразить благодарность детской киностудии за их вклад в развитие детей. Здесь&nbsp;они могут выплеснуть свою энергию. </p>
+          <p class="review__quote">На занятиях через игру запускаются важнейшие для ребенка механизмы, активируется работа мозга,
+            а именно ребенок учится управлять своим телом, узнает новые возможности своего органщика. Дети за время обучения раскрываются, становятся более раскованными. В студии царит дружественная и очень теплая атмосфера. Огромное спасибо нашему
+            преподавателю Ольге за ее внимательное и доброжелательное отношение к детям.</p>
+          <div class="review__card">
+            <img src="http://placehold.it/140x140" alt="НАталья зуева" class="review__avatar">
+            <p class="review__author">Наталья Зуева</p>
+          </div>
+        </div>
+        <div class="review__inner none">
+          <p class="review__quote">Хочется выразить благодарность детской киностудии за их вклад в развитие детей. Здесь&nbsp;они могут выплеснуть свою энергию. </p>
+          <p class="review__quote">На занятиях через игру запускаются важнейшие для ребенка механизмы, активируется работа мозга,
+            а именно ребенок учится управлять своим телом, узнает новые возможности своего органщика. Дети за время обучения раскрываются, становятся более раскованными. В студии царит дружественная и очень теплая атмосфера. Огромное спасибо нашему
+            преподавателю Ольге за ее внимательное и доброжелательное отношение к детям.</p>
+          <div class="review__card">
+            <img src="http://placehold.it/140x140" alt="НАталья зуева" class="review__avatar">
+            <p class="review__author">Наталья Зуева</p>
+          </div>
+        </div>
+        <button class="review__control review__control--before" type="button">Предыдущий</button>
+        <button class="review__control review__control--after" type="button">Следующий</button>
       </div>
     </section>
     <section class="contacts">
-      <div class="contacts__contacts">
-        <h2 class="contacts__title">Контакты</h2>
-        <p class="contacts__item contacts__item--adress">г. Раменское, ул. Карла Маркса, д.5, 3 этаж, офис 331</p>
-        <p class="contacts__item contacts__item--time">с 10:00 до 20:00</p>
-        <p class="contacts__item contacts__item--telephone">+7 901 332-77-70</p>
-        <p class="contacts__item contacts__item--email">infokinovzlet@gmail.com</p>
-      </div>
-      <article class="contacts__review review-list">
-        <h2 class="review-list__title">Напишите нам</h2>
-        <p class="review-list__content">Здесь вы можете оставить свои контактные данные и сообщение, мы обязательно свяжемся с вами в ближайшее время.</p>
-        <form class="review__form" action="index.html" method="post">
+      <div class="contacts__wrap">
+        <div class="contacts__contacts">
+          <h2 class="contacts__title">Контакты</h2>
+          <p class="contacts__item contacts__item--adress">г. Раменское, ул. Карла Маркса, д.5, 3 этаж, офис 331</p>
+          <p class="contacts__item contacts__item--time">с 10:00 до 20:00</p>
+          <p class="contacts__item contacts__item--telephone">+7 901 332-77-70</p>
+          <p class="contacts__item contacts__item--email">infokinovzlet@gmail.com</p>
+        </div>
+        <article class="contacts__review review-list">
+          <h2 class="visually-hidden">Обратная связь</h2>
+          <p class="review-list__title">Напишите нам</p>
+          <p class="review-list__content">Здесь вы можете оставить свои контактные данные и сообщение, мы обязательно свяжемся с вами в ближайшее время.</p>
+          <form class="review__form" action="index.html" method="post">
 
-        </form>
-      </article>
+          </form>
+        </article>
+      </div>
     </section>
+    <img src="img/map.jpg" width="1920" height="443" alt="карта с нашим адресом" class="map">
   </main>
   <footer class="page-footer">
-    <div class="page-footer__item">
-      <a href="#" class="page-footer__link button">Ваш e-mail</a>
-      <a href="#" class="page-footer__link button">Связаться</a>
-    </div>
-    <div class="page-footer__item">
-      <img src="http://placehold.it/130x100" width="130" height="100" alt="детская студия киновзлет" class="actors__logo">
-      <ul class="page-footer__social social">
-        <li class="social__item">
-          <a href="#" class="social__link social__link--Telegram">Мы в Telegram</a>
-        </li>
-        <li class="social__item">
-          <a href="#" class="social__link social__link--WhatsApp">Мы в WhatsApp</a>
-        </li>
-        <li class="social__item">
-          <a href="#" class="social__link social__link--Vk">Мы в ВКонтакте</a>
-        </li>
-        <li class="social__item">
-          <a href="#" class="social__link social__link--Facebook">Мы в Facebook</a>
-        </li>
-        <li class="social__item">
-          <a href="#" class="social__link social__link--Instagram">Мы в Instagram</a>
-        </li>
-        <li class="social__item">
-          <a href="#" class="social__link social__link--YouTube">Мы на YouTube</a>
-        </li>
-      </ul>
-      <p class="page-footer__copyright">Творческая мастерская. www.kinovzlet.ru © 2018</p>
-    </div>
-    <div class="page-footer__item">
-      <p class="page-footer__subtitle">Расписание</p>
-      <p class="page-footer__subtitle">Рассылка новостей</p>
-      <p class="page-footer__list">Telegram канал: @kinovzlet</p>
-      <p class="page-footer__list">Подписка на электронную рассылку:</p>
-      <a href="#" class="page-footer__link button">Подписаться</a>
+    <div class="page-footer__wrap">
+      <div class="page-footer__item">
+        <div class="page-footer__link">
+          <a href="#" class="button button--transparent button--footer button--border-grey">Ваш e-mail</a>
+        </div>
+        <div class="page-footer__link">
+          <a href="#" class="button button--footer">Связаться</a>
+        </div>
+      </div>
+      <div class="page-footer__item">
+        <img src="http://placehold.it/131x101" width="131" height="101" alt="детская студия киновзлет" class="page-footer__logo actors__logo">
+        <div class="page-footer__social">
+          <ul class="social social--footer">
+            <li class="social__item">
+              <a href="#" class="social__link social__link--Telegram">Мы в Telegram</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--WhatsApp">Мы в WhatsApp</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--Vk">Мы в ВКонтакте</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--Facebook">Мы в Facebook</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--Instagram">Мы в Instagram</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--YouTube">Мы на YouTube</a>
+            </li>
+          </ul>
+        </div>
+        <p class="page-footer__copyright">Творческая мастерская.</p>
+        <p class="page-footer__copyright">www.kinovzlet.ru © 2018</p>
+      </div>
+      <div class="page-footer__item">
+        <p class="page-footer__subtitle page-footer__subtitle--underlined">Расписание</p>
+        <p class="page-footer__subtitle">Рассылка новостей</p>
+        <p class="page-footer__list">Telegram канал: @kinovzlet</p>
+        <p class="page-footer__list">Подписка на электронную рассылку:</p>
+        <a href="#" class="page-footer__link button button--footer">Подписаться</a>
+      </div>
     </div>
   </footer>
 </body>

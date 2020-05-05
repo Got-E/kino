@@ -21,13 +21,14 @@
   height: 442px;
   margin-bottom: -320px;
   background: $main-color-back;
+  opacity: 90%;
 }
 
 .mentors__inner {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-bottom: 235px;
+  padding-bottom: 245px;
   width: 1560px;
 }
 
@@ -49,6 +50,7 @@
   padding: 0 10px;
   text-align: center;
   font-size: $font-size-xxxs;
+  line-height: 1.25em;
 }
 
 .mentors__link {

@@ -1,0 +1,85 @@
+.contacts {
+  margin-top: 238px;
+  margin-bottom: 168px;
+  padding-bottom: 52px;
+}
+
+.contacts__wrap {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts__contacts {
+  padding-top: 23px;
+  padding-left: 721px;
+  min-height: 437px;
+  background: $main-color;
+  opacity: 70%;
+}
+
+.contacts__title {
+  margin-bottom: 58px;
+  font-size: $font-size-xxxl;
+  line-height: 34px;
+  color: $white;
+}
+
+.contacts__item {
+  position: relative;
+  margin: 19px 0;
+  padding-left: 67px;
+  font-size: $font-size-xxxs;
+  line-height: 34px;
+  color: $white;
+
+  &--adress::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 33px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: $white;
+  }
+
+  &--time::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 33px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: $white;
+  }
+
+  &--telephone::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 33px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: $white;
+  }
+
+  &--email::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 33px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: $white;
+  }
+}
+
+.contacts__review {
+  position: absolute;
+  top: -48px;
+  left: 114px;
+}

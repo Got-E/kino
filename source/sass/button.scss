@@ -11,18 +11,19 @@
   border: none;
   border-radius: 40px;
   background: $main-color;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   opacity: 83;
 
   &--invers {
     background: $main-color-invers;
   }
 
-  &--white {
+  &--transparent {
     font-size: $font-size-xs;
     line-height: 1.133em;
     font-weight: 700;
     color: $dark-grey;
-    background: $white;
+    background: transparent;
     letter-spacing: 0.5px;
   }
 
@@ -44,5 +45,16 @@
     color: $pink;
     background: $white;
     border: solid 1px $pink;
+  }
+
+  &--footer {
+    padding-top: 13px;
+    font-size: $font-size-xxls;
+    line-height: 1em;
+  }
+
+  &--border-grey {
+    color: $white;
+    border: solid 1px $main-grey;
   }
 }

@@ -3,18 +3,29 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  width: 115px;
   list-style: none;
+
+  &--header {
+    .social__link {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &--footer {
+    .social__link {
+      width: 37px;
+      height: 37px;
+    }
+  }
 }
 
 .social__link {
   display: block;
-  width: 30px;
-  height: 30px;
   text-decoration: none;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background-color: $blak;
   border-radius: 50%;
+  background-color: red;
 }

@@ -1,0 +1,81 @@
+.review {
+  min-height: 645px;
+  background: $main-color;
+  opacity: 79%;
+}
+
+.review__wrap {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 27px;
+  width: 1200px;
+  color: $white;
+}
+
+.review__title {
+  margin: 0;
+  margin-bottom: 48px;
+  padding-top: 139px;
+  font-family: "Basic", "Arial", sans-serif;
+  font-size: $font-size-xxl;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+}
+
+.review__inner {
+  position: relative;
+  margin-left: 167px;
+  width: 940px;
+}
+
+.review__quote {
+  margin: 0;
+  width: 690px;
+  font-size: $font-size-s;
+  line-height: 30px;
+}
+
+.review__card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  height: 200px;
+}
+
+.review__avatar {
+  border-radius: 50%;
+}
+
+.review__author {
+  font-size: $font-size-l;
+  font-weight: 600;
+  line-height: $font-size-xl;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.1px;
+}
+
+.review__control {
+  position: absolute;
+  top: 306px;
+  width: 22px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+
+  &--before {
+    left: -220px;
+    background: url("../img/icon-left.svg") no-repeat 0 0;
+  }
+
+  &--after {
+    right: -220px;
+    background: url("../img/icon-right.svg") no-repeat 0 0;
+  }
+}

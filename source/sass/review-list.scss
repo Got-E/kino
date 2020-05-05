@@ -1,0 +1,26 @@
+.review-list {
+  width: 552px;
+  height: 537px;
+  padding-top: 53px;
+  padding-left: 97px;
+  color: $grey;
+  background-color: $white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+}
+
+.review-list__title {
+  margin: 0;
+  width: 240px;
+  font-size: $font-size-xxxl;
+  font-weight: 600;
+  line-height: 46px;
+  color: $v-dark-grey;
+  opacity: 1;
+}
+
+.review-list__content {
+  margin-top: 14px;
+  width: 260px;
+  font-size: $font-size-xxxs;
+  line-height: 15px;
+}

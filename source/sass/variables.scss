@@ -1,26 +1,34 @@
 // цвета
-$main-color: linear-gradient(to right, #ffec46 0%, #ff6000 40%, #ff475c 50%, #ff3c87 70%, #c10cb6 100%);
-$main-color-invers: linear-gradient(to left, #ffec46 0%, #ff6000 40%, #ff475c 50%, #ff3c87 70%, #c10cb6 100%);
-$main-color-big: linear-gradient(to bottom right, #f0e749 0%, #f08c2e 30%, #f28138 35%, #f76553 47%, #fe4672 55%, #d42980 75%, #b3128b 85%, #a00492 95%, #990095 100%);
-$main-color-back: linear-gradient(to right, rgba(255, 236, 70, 0.8) 0%, #ff475c 30%, #ff475c 50%, #ff3c87 60%, #c10cb6 100%);
+$main-color: linear-gradient(104deg, #ffec46, #ff6000 36%, #ff475c 45%, #ff3c87 60%, #c10cb6);
+$main-color-invers: linear-gradient(256deg, #ffec46, #ff6000 64%, #ff475c 55%, #ff3c87 40%, #c10cb6);
+$main-color-big: linear-gradient(152deg, #f0e749 -3%, #f08c2e 22%, #f28138 35%, #f76553 47%, #fe4672 55%, #d42980 75%, #b3128b 85%, #a00492 95%, #990095 100%);
+$main-color-back: linear-gradient(to right, rgba(255, 236, 70, 0.8) 0%, #ff475c 25%, #ff475c 50%, #ff3c87 60%, #c10cb6 100%);
 $main-grey: #707070;
 $dark-grey: #4b4b4b;
 $light-grey: #dedede;
+$grey: #898989;
+$v-dark-grey: #484848;
 $white: #ffffff;
 $blak: #000000;
 $pink: #ff3c87;
+$main-blak: #2b2b2b;
 
 // шрифты
+$font-size-ss: 9px;
 $font-size-xxxs: 12px;
+$font-size-xxls: 13px;
 $font-size-xxs: 14px;
 $font-size-xs: 15px;
 $font-size-s: 16px;
 $font-size: 18px;
+$font-size-l: 21px;
 $font-size-xl: 23px;
 $font-size-xxl: 26px;
+$font-size-xxxl: 49px;
 $font-size-el: 90px;
 $font-size-vl: 72px;
 $font-size-sl: 61px;
+
 $line-height: 20px;
 
 // размеры
