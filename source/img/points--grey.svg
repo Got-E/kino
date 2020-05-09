@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 380 380 " preserveAspectRatio="slice" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #898989;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <circle cx="0" cy="0" r="2"/>
+    <circle cx="54" cy="0" r="2"/>
+    <circle cx="108" cy="0" r="2"/>
+    <circle cx="162" cy="0" r="2"/>
+    <circle cx="216" cy="0" r="2"/>
+    <circle cx="270" cy="0" r="2"/>
+    <circle cx="324" cy="0" r="2"/>
+    <circle cx="378" cy="0" r="2"/>
+    <circle cx="0" cy="54" r="2"/>
+    <circle cx="54" cy="54" r="2"/>
+    <circle cx="108" cy="54" r="2"/>
+    <circle cx="162" cy="54" r="2"/>
+    <circle cx="216" cy="54" r="2"/>
+    <circle cx="270" cy="54" r="2"/>
+    <circle cx="324" cy="54" r="2"/>
+    <circle cx="378" cy="54" r="2"/>
+    <circle cx="0" cy="108" r="2"/>
+    <circle cx="54" cy="108" r="2"/>
+    <circle cx="108" cy="108" r="2"/>
+    <circle cx="162" cy="108" r="2"/>
+    <circle cx="216" cy="108" r="2"/>
+    <circle cx="270" cy="108" r="2"/>
+    <circle cx="324" cy="108" r="2"/>
+    <circle cx="378" cy="108" r="2"/>
+    <circle cx="0" cy="162" r="2"/>
+    <circle cx="54" cy="162" r="2"/>
+    <circle cx="108" cy="162" r="2"/>
+    <circle cx="162" cy="162" r="2"/>
+    <circle cx="216" cy="162" r="2"/>
+    <circle cx="270" cy="162" r="2"/>
+    <circle cx="324" cy="162" r="2"/>
+    <circle cx="378" cy="162" r="2"/>
+    <circle cx="0" cy="216" r="2"/>
+    <circle cx="54" cy="216" r="2"/>
+    <circle cx="108" cy="216" r="2"/>
+    <circle cx="162" cy="216" r="2"/>
+    <circle cx="216" cy="216" r="2"/>
+    <circle cx="270" cy="216" r="2"/>
+    <circle cx="324" cy="216" r="2"/>
+    <circle cx="378" cy="216" r="2"/>
+    <circle cx="0" cy="270" r="2"/>
+    <circle cx="54" cy="270" r="2"/>
+    <circle cx="108" cy="270" r="2"/>
+    <circle cx="162" cy="270" r="2"/>
+    <circle cx="216" cy="270" r="2"/>
+    <circle cx="270" cy="270" r="2"/>
+    <circle cx="324" cy="270" r="2"/>
+    <circle cx="378" cy="270" r="2"/>
+    <circle cx="0" cy="324" r="2"/>
+    <circle cx="54" cy="324" r="2"/>
+    <circle cx="108" cy="324" r="2"/>
+    <circle cx="162" cy="324" r="2"/>
+    <circle cx="216" cy="324" r="2"/>
+    <circle cx="270" cy="324" r="2"/>
+    <circle cx="324" cy="324" r="2"/>
+    <circle cx="378" cy="324" r="2"/>
+    <circle cx="0" cy="378" r="2"/>
+    <circle cx="54" cy="378" r="2"/>
+    <circle cx="108" cy="378" r="2"/>
+    <circle cx="162" cy="378" r="2"/>
+    <circle cx="216" cy="378" r="2"/>
+    <circle cx="270" cy="378" r="2"/>
+    <circle cx="324" cy="378" r="2"/>
+    <circle cx="378" cy="378" r="2"/>
+    </g>
+</svg>

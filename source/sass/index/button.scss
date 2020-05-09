@@ -27,6 +27,15 @@
     letter-spacing: 0.5px;
   }
 
+  &--white {
+    font-size: $font-size-xs;
+    line-height: 1.133em;
+    font-weight: 700;
+    color: $dark-grey;
+    letter-spacing: 0.5px;
+    background: $white;
+  }
+
 
   &--small {
     padding-top: 12px;

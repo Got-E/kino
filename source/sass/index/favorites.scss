@@ -1,4 +1,4 @@
-.favorites  {
+.favorites {
   display: block;
   width: 30px;
   height: 30px;
@@ -6,8 +6,12 @@
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background-color: $blak;
   border-radius: 50%;
+  border: 1px solid $main-grey;
+  background-image: url("../img/icon--like.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 37px 37px;
 
   &--card {
     width: 35px;

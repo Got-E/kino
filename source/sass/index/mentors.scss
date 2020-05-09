@@ -1,4 +1,5 @@
 .mentors__header {
+  position: relative;
   margin: 0 auto;
   width: 1560px;
   min-height: 500px;
@@ -6,6 +7,7 @@
 }
 
 .mentors__title {
+  position: relative;
   width: 500px;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: $blak;
@@ -16,12 +18,18 @@
   letter-spacing: 6px;
 }
 
+.mentors__decor {
+  position: absolute;
+  top: -64px;
+  right: 171px;
+  opacity: 0.4;
+}
+
 .mentors__back {
+  display: block;
   width: 100%;
   height: 442px;
   margin-bottom: -320px;
-  background: $main-color-back;
-  opacity: 90%;
 }
 
 .mentors__inner {

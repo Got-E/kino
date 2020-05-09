@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="382" height="382" viewBox="0 0 382 382">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <circle cx="5" cy="5" r="4"/>
+      <circle cx="31" cy="5" r="4"/>
+      <circle cx="57" cy="5" r="4"/>
+    </g>
+  </g>
+</svg>

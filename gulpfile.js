@@ -26,7 +26,7 @@ gulp.task("css", function() {
 });
 
 gulp.task("clean", function () {
-  return del("docs")
+  return del("docs/*")
 });
 
 gulp.task("copy", function () {

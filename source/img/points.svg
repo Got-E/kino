@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="382" height="382" viewBox="0 0 382 382">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 1;
+      }
+    </style>
+  </defs>
+  <g class="cls-1" transform="translate(4785 -4409)">
+    <g transform="translate(-4951 458)">
+      <circle cx="2" cy="2" r="3" transform="translate(166 3951)"/>
+      <circle cx="2" cy="2" r="3" transform="translate(210 3951)"/>
+      <circle cx="2" cy="2" r="3" transform="translate(254 3951)"/>
+    </g>
+  </g>
+</svg>

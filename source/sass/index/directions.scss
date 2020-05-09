@@ -1,0 +1,73 @@
+.directions__title {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 79px;
+  margin-bottom: 0;
+  width: 1100px;
+  font-family: "AA Haymaker", "Arial", sans-serif;
+  color: $blak;
+  font-size: $font-size-sl;
+  line-height: 3em;
+  text-transform: uppercase;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -51px;
+    left: -17px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/berd3.svg");
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -39px;
+    right: 5px;
+    display: block;
+    width: 200px;
+    height: 171px;
+    background-image: url("../img/berd4.svg");
+  }
+}
+
+.directions__link {
+  margin: 0 auto;
+  width: 328px;
+  height: 55px;
+
+  &--courses {
+    margin-top: 111px;
+    margin-bottom: 136px;
+  }
+}
+
+.directions__subtitle {
+  position: relative;
+  margin: 0;
+  margin-top: 32px;
+  margin-left: 122px;
+  margin-bottom: -260px;
+  font-family: "Dots", "Arial", sans-serif;
+  font-size: $font-size-el;
+  line-height: 3em;
+
+  &--decor::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 698px;
+    display: block;
+    width: 3px;
+    height: 160px;
+    background: #e6e6e6;
+  }
+}
+
+.direction__inner {
+  margin: 0 auto;
+  width: 1640px;
+}

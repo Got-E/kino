@@ -1,6 +1,10 @@
 .info {
   padding-top: 259px;
   padding-bottom: 400px;
+  background-image: url("../img/ball.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 67%;
+  background-size: 730px 1230px;
 }
 
 .info__wrap {
@@ -14,12 +18,24 @@
   background: $main-color-big;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
   opacity: 85%;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -247px;
+    left: 46%;
+    width: 105px;
+    height: 10px;
+    background-image: url("../img/bold-points.png");
+    background-position: 0 0;
+  }
 }
 
 .info__logo-image {
   position: absolute;
-  left: 150px;
-  top: 185px;
+  left: 140px;
+  top: 179px;
 }
 
 .info__title {
@@ -30,16 +46,29 @@
 }
 
 .info__subtitle {
+  position: relative;
+  margin: 0;
   margin-top: 11px;
   margin-left: 11px;
+  padding-bottom: 67px;
   font-family: "Basic", "Arial", sans-serif;
   font-size: $font-size-xxl;
   line-height: 2.654em;
   letter-spacing: 3px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    bottom: 23px;
+    width: 150px;
+    height: 20px;
+    background-image: url("../img/points--white.svg");
+  }
 }
 
 .info__content {
-  margin-top: 67px;
+  margin-top: 0;
   margin-left: 16px;
   width: 600px;
   line-height: 1.666em;
