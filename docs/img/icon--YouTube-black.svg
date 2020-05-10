@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.181" height="29.181" viewBox="0 0 29.181 29.181">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a2b1ce;
+      }
+
+      .cls-2 {
+        fill: #e8ecf3;
+      }
+
+      .cls-3 {
+        fill: #a7b5d1;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g id="Group_1075" data-name="Group 1075" transform="translate(-1533.82 24.407)">
+    <path id="Path_1353" data-name="Path 1353" class="cls-1" d="M205.069,504.818q-.014-.1-.029-.208a2.842,2.842,0,0,1,.183-1.253l.2.177c.453.374.073.861.175,1.283-.058,0-.116.005-.174.006Z" transform="translate(1348.476 -514.143)"/>
+    <path id="Path_1354" data-name="Path 1354" class="cls-2" d="M205.631,506.059l-.284.708c-.127-.249-.814-.5,0-.747Z" transform="translate(1348.531 -515.846)"/>
+    <path id="Path_1355" data-name="Path 1355" class="cls-3" d="M205.124,507.411l.359,0,.176.551c-.2.129-.009.245.013.366l-.19.191a.358.358,0,0,0-.184.361C204.932,508.429,205.188,507.9,205.124,507.411Z" transform="translate(1348.441 -516.736)"/>
+    <circle id="Ellipse_77" data-name="Ellipse 77" class="cls-4" cx="14.59" cy="14.59" r="14.59" transform="translate(1533.82 -24.407)"/>
+    <g id="Group_712" data-name="Group 712" transform="translate(1539.236 -16.322)">
+      <g id="Group_711" data-name="Group 711" transform="translate(0 0)">
+        <path id="Path_1721" data-name="Path 1721" class="cls-5" d="M2909.009,1462.284c-2.131-.107-4.277-.167-6.414-.336-1.64-.129-2.295-.814-2.512-2.448a28.323,28.323,0,0,1,0-7.455c.221-1.676.858-2.339,2.548-2.489a72.39,72.39,0,0,1,12.794,0,2.383,2.383,0,0,1,2.512,2.454,28.312,28.312,0,0,1,0,7.455c-.22,1.676-.857,2.348-2.548,2.483C2913.273,1462.12,2911.148,1462.177,2909.009,1462.284Zm-1.862-4.163,4.915-2.55-4.915-2.577Z" transform="translate(-2899.833 -1449.274)"/>
+      </g>
+    </g>
+  </g>
+</svg>

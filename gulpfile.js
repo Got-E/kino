@@ -10,6 +10,8 @@ var server = require("browser-sync").create();
 var csso = require("gulp-csso");
 var rename = require("gulp-rename");
 var del = require("del");
+var posthtml = require("gulp-posthtml");
+var include = require("posthtml-include");
 
 gulp.task("css", function() {
   return gulp.src("source/sass/style.scss")
@@ -31,7 +33,6 @@ gulp.task("clean", function () {
 
 gulp.task("copy", function () {
   return gulp.src ([
-    "source/*.html",
     "source/css/*.css",
     "source/fonts/**",
     "source/img/**",
@@ -43,17 +44,26 @@ gulp.task("copy", function () {
   .pipe(gulp.dest("docs"));
 });
 
+gulp.task( "html", function () {
+  return gulp.src("source/*.html")
+    .pipe(posthtml([
+      include()
+    ]))
+    .pipe(gulp.dest("docs"));
+});
+
 gulp.task("server", function() {
   server.init({
-    server: "source/",
+    server: "docs/",
     notify: false,
     open: true,
     cors: true,
     ui: false
   });
 
-  gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("css")).on("change", server.reload);
-  gulp.watch("source/*.html").on("change", server.reload);
-});
+  gulp.watch("source/sass/**/*.{scss,sass}",
+  gulp.series("clean", "css", "html", "copy")).on("change", server.reload);
+  gulp.watch("source/**/*.{html,svg}", gulp.series("clean", "html", "copy")).on("change", server.reload);
+  });
 
-gulp.task("start", gulp.series("clean", "copy", "css", "server"));
+gulp.task("start", gulp.series("clean", "css", "html", "copy", "server"));

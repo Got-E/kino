@@ -41,7 +41,9 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-color: $white;
+    background-image: url("../img/icon--point.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &--time::before {
@@ -52,7 +54,9 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-color: $white;
+    background-image: url("../img/icon--clock.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &--telephone::before {
@@ -63,7 +67,9 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-color: $white;
+    background-image: url("../img/icon--phone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &--email::before {
@@ -74,7 +80,9 @@
     display: block;
     width: 20px;
     height: 20px;
-    background-color: $white;
+    background-image: url("../img/icon--mail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
