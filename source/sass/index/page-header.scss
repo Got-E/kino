@@ -1,67 +1,349 @@
-.page-header__wrap {
-  width: 1660px;
+.page-header {
+  position: relative;
+  width: 284px;
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 
 .page-header__inner {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 30px;
 
   &--button {
-    margin: 0 auto;
-    margin-top: 84px;
-    width: 534px;
+    padding-top: 27px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 .page-header__main-nav {
-  width: 1394px;
-  padding-left: 11px;
-}
+  position: relative;
+  display: none;
+  width: 100%;
+  min-height: 500px;
 
-.page-header__logo {
-  margin-right: 18px;
+  &--open {
+    display: block;
+  }
 }
 
 .page-header__social {
-  margin-left: 53px;
-  padding-top: 26px;
-  width: 113px;
+  width: 106px;
+  margin: 0 auto;
+  margin-top: 45px;
 }
 
-.page-header__favorites {
-  margin-top: 25px;
-  margin-right: 10px;
+.page-header__close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: transparent;
+  background-image: url("../img/icon--close.svg");
+  border: none;
+}
+
+.page-header__logo {
+  display: none;
+
+  &--mobile {
+    display: block;
+    width: 109px;
+    height: 79px;
+    margin-top: 55px;
+  }
+}
+
+.page-header__toggle {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: transparent;
+  background-image: url("../img/icon--menu.svg");
+  border: none;
+
+  &--no-js {
+    display: none;
+  }
+
+  &--hidden {
+    background-image: none;
+  }
+
+  &:hover {
+    outline: 1px solid $dark-grey;
+  }
 }
 
 .page-header__title {
-  display: block;
-  width: 870px;
-  margin-left: 397px;
-  margin-top: 250px;
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 19px;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: $blak;
-  font-size: $font-size-el;
-  line-height: 1.1em;
+  font-size: 33px;
+  line-height: 44px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 6px;
 }
 
 .page-header__slogan {
-  margin-top: 36px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 17px;
   font-family: "Basic", "Arial", sans-serif;
+  font-weight: 300;
   color: $blak;
-  font-size: $font-size-xl;
+  font-size: $font-size-xxxs;
+  line-height: 18px;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .page-header__link {
-  flex: none;
-  width: 227px;
-  height: 55px;
+  width: 186px;
+  height: 39px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    width: 607px;
+  }
+
+  .page-header__inner {
+    padding-top: 26px;
+    padding-bottom: 173px;
+
+    &--button {
+      justify-content: space-between;
+      width: 462px;
+      padding-top: 116px;
+      padding-bottom: 50px;
+    }
+  }
+
+  .page-header__main-nav {
+    margin-top: 4px;
+    margin-bottom: 25px;
+    display: block;
+    width: 29px;
+    min-height: 30px;
+
+    .main-nav {
+      display: none;
+    }
+
+    .page-header__close {
+      display: none;
+    }
+
+    &--open {
+      width: 100%;
+      min-height: 200px;
+
+      .main-nav {
+        margin-bottom: 25px;
+        display: block;
+      }
+
+      .page-header__close {
+        display: block;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  .page-header__social {
+    margin-top: 0;
+    width: 117px;
+  }
+
+  .page-header__favorites {
+    position: absolute;
+    top: 32px;
+    left: 127px;
+
+    &--menu {
+      position: static;
+    }
+  }
+
+  .page-header__logo {
+    margin-top: 0;
+    width: 153px;
+    height: 113px;
+  }
+
+  .page-header__toggle {
+    margin-top: 9px;
+    width: 28px;
+  }
+
+  .page-header__title {
+    font-size: $font-size-xxxl;
+    line-height: 54px;
+    letter-spacing: 3.43px;
+  }
+
+  .page-header__slogan {
+    width: 400px;
+    margin-top: 59px;
+    font-size: $font-size-s;
+    letter-spacing: normal;
+  }
+
+  .page-header__link {
+    width: 206px;
+    height: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 1100px;
+  }
+
+  .page-header__inner {
+    padding-bottom: 145px;
+
+    &--button {
+      width: 359px;
+      padding-top: 56px;
+      padding-bottom: 13px;
+    }
+  }
+
+  .page-header__main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1059px;
+
+    .main-nav {
+      display: flex;
+    }
+  }
+
+  .page-header__logo {
+    margin-top: 9px;
+    margin-right: 15px;
+    width: 111px;
+    height: 79px;
+
+    &--desktop {
+      display: block;
+    }
+
+    &--mobile {
+      display: none;
+    }
+  }
+
+  .page-header__close {
+    display: none;
+  }
+
+  .page-header__toggle {
+    display: none;
+  }
+
+  .page-header__social {
+    margin: 0;
+    margin-top: 23px;
+    width: 79px;
+  }
+
+  .page-header__favorites {
+    position: static;
+    margin-top: 31px;
+    margin-right: 4px;
+  }
+
+  .page-header__title {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    font-size: 60px;
+    line-height: 67px;
+  }
+
+  .page-header__slogan {
+    margin-top: 20px;
+    font-size: $font-size-xs;
+  }
+
+  .page-header__link {
+    width: 152px;
+    height: 37px;
+  }
+}
+
+@media (min-width: $lage-width) {
+  .page-header {
+    width: 1643px;
+  }
+
+  .page-header__inner {
+    padding-top: 41px;
+    padding-bottom: 269px;
+
+    &--button {
+      padding-bottom: 39px;
+      margin-top: 42px;
+      width: 534px;
+    }
+  }
+
+  .page-header__main-nav {
+    width: 1580px;
+  }
+
+  .page-header__logo {
+    margin-top: -5px;
+    margin-right: 20px;
+    width: 162px;
+  }
+
+  .page-header__social {
+    margin-top: 15px;
+    width: 118px;
+  }
+
+  .page-header__favorites {
+    margin-top: 25px;
+    margin-right: 5px;
+  }
+
+  .page-header__title {
+    display: block;
+    width: 870px;
+    margin-bottom: 0;
+    font-size: $font-size-el;
+    line-height: 1.1em;
+    letter-spacing: 6.3px;
+  }
+
+  .page-header__slogan {
+    width: 550px;
+    margin-top: 36px;
+    font-size: $font-size-xl;
+  }
+
+  .page-header__link {
+    flex: none;
+    width: 227px;
+    height: 55px;
+  }
 }

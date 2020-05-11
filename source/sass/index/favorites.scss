@@ -4,6 +4,26 @@
   height: 30px;
   border-radius: 50%;
 
+  @media (min-width: $phone-width) {
+    width: 25px;
+    height: 25px;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 31px;
+    height: 31px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 19px;
+    height: 19px;
+  }
+
+  @media (min-width: $lage-width) {
+    width: 29px;
+    height: 29px;
+  }
+
   &--card {
     width: 35px;
     height: 35px;

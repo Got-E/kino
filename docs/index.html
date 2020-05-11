@@ -13,23 +13,25 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header__wrap">
-      <div class="page-header__inner">
-        <div class="page-header__main-nav">
-          <nav class="main-nav">
-            <a href="#" class="main-nav__link">Главная</a>
-            <a href="#" class="main-nav__link">О студии</a>
-            <a href="#" class="main-nav__link">Направления</a>
-            <a href="#" class="main-nav__link">Цены</a>
-            <a href="#" class="main-nav__link">Расписание</a>
-            <a href="#" class="page-header__logo">
-              <img class="page-header__logo-image" src="img/logo.svg" width="153" height="118" alt="детская студия киновзлет">
-            </a>
-            <a href="#" class="main-nav__link">Поиск актеров</a>
-            <a href="#" class="main-nav__link">Фильмы</a>
-            <a href="#" class="main-nav__link">Контакты</a>
-          </nav>
-        </div>
+    <div class="page-header__inner">
+      <div class="page-header__main-nav page-header__main-nav--open">
+        <nav class="main-nav">
+          <a href="#" class="main-nav__link">Главная</a>
+          <a href="#" class="main-nav__link">О студии</a>
+          <a href="#" class="main-nav__link">Направления</a>
+          <a href="#" class="main-nav__link">Цены</a>
+          <a href="#" class="main-nav__link">Расписание</a>
+          <a class="page-header__logo page-header__logo--desktop">
+            <picture>
+              <source media="(min-width: 1920px)" srcset="img/logo.svg">
+              <source media="(min-width: 1280px)" srcset="img/logo.svg">
+              <img src="img/logo.svg" alt="киностудия киновзлет">
+            </picture>
+          </a>
+          <a href="#" class="main-nav__link">Поиск актеров</a>
+          <a href="#" class="main-nav__link">Фильмы</a>
+          <a href="#" class="main-nav__link">Контакты</a>
+        </nav>
         <div class="page-header__social">
           <ul class="social social--header">
             <li class="social__item">
@@ -43,8 +45,10 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="page-header__favorites favorites">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29">
+        <button class="page-header__close" type="button" name="button">Закрыть меню</button>
+      </div>
+      <a href="#" class="page-header__favorites favorites">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29">
   <g transform="translate(-1751 -108)">
     <g class="circle" transform="translate(1751 108)">
       <circle class="circle" fill="none" stroke="#707070" cx="14.5" cy="14.5" r="14"></circle>
@@ -53,17 +57,20 @@
   </g>
 </svg>
 
-        </a>
+      </a>
+      <a class="page-header__logo page-header__logo--mobile">
+        <img src="img/logo.svg" alt="киностудия киновзлет">
+      </a>
+      <button class="page-header__toggle" type="button" name="button">Открыть меню</button>
+    </div>
+    <h1 class="page-header__title">Студия театра&nbspи&nbspкино</h1>
+    <p class="page-header__slogan">Твори! Созидай! Участвуй!</p>
+    <div class="page-header__inner page-header__inner--button">
+      <div class="page-header__link">
+        <a href="#" class="button">Поиск актеров</a>
       </div>
-      <h1 class="page-header__title">Студия театра&nbspи&nbspкино</h1>
-      <p class="page-header__slogan">Твори! Созидай! Участвуй!</p>
-      <div class="page-header__inner page-header__inner--button">
-        <div class="page-header__link">
-          <a href="#" class="button">Поиск актеров</a>
-        </div>
-        <div class="page-header__link">
-          <a href="#" class="button button--invers">Смотреть фильмы</a>
-        </div>
+      <div class="page-header__link">
+        <a href="#" class="button button--invers">Смотреть фильмы</a>
       </div>
     </div>
   </header>

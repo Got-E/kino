@@ -1,13 +1,14 @@
 .button {
-  position: relative;
   display: inline-block;
   width: 100%;
   height: 100%;
-  padding: 16px;
+  padding: 10px;
   margin: 0;
   text-decoration: none;
   text-align: center;
   color: $white;
+  font-size: $font-size-xs;
+  font-weight: 600;
   border: none;
   border-radius: 40px;
   background: $main-color;
@@ -15,7 +16,7 @@
   opacity: 83;
 
   &--invers {
-    background: $main-color-invers;
+    background: $brend-color;
   }
 
   &--transparent {
@@ -65,5 +66,30 @@
   &--border-grey {
     color: $white;
     border: solid 1px $main-grey;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .button {
+    padding: 15px;
+
+    &--invers {
+      background: $main-color-invers;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button {
+    padding: 10px;
+    font-size: $font-size-xxxs;
+    line-height: 1em;
+  }
+}
+
+@media (min-width: $lage-width) {
+  .button {
+    padding: 20px;
+    font-size: $font-size;
   }
 }

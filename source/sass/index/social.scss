@@ -20,6 +20,7 @@
 
       &--YouTube {
         background-image: url("../img/icon--YouTube-black.svg");
+        background-size: 30px 30px;
       }
     }
   }
@@ -80,5 +81,56 @@
     background-repeat: no-repeat;
     background-position: center;
     // background-size: 30px 30px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .social--header {
+    .social__link {
+      width: 31px;
+      height: 31px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social--header {
+    .social__link {
+      width: 25px;
+      height: 25px;
+
+      &--Instagram {
+        background-size: 25px 25px;
+      }
+
+      &--WhatsApp {
+        background-size: 25px 25px;
+      }
+
+      &--YouTube {
+        background-size: 20px 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: $lage-width) {
+  .social--header {
+    .social__link {
+      width: 40px;
+      height: 40px;
+
+      &--Instagram {
+        background-size: 40px 40px;
+      }
+
+      &--WhatsApp {
+        background-size: 40px 40px;
+      }
+
+      &--YouTube {
+        background-size: 29px 29px;
+      }
+    }
   }
 }

@@ -1,12 +1,39 @@
 .main-nav {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 }
 
 .main-nav__link {
+  display: block;
+  width: 100%;
   padding-top: 28px;
   font-size: $font-size-s;
   text-decoration: none;
   color: $main-grey;
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    justify-content: space-between;
+    width: 933px;
+  }
+
+  .main-nav__link {
+    width: auto;
+    font-size: $font-size-xxxs;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: $lage-width) {
+  .main-nav {
+    width: 1387px;
+  }
+
+  .main-nav__link {
+    padding-top: 27px;
+    font-size: $font-size-s;
+  }
 }
