@@ -21,7 +21,7 @@ gulp.task("css", function() {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(csso())
+    // .pipe(csso())
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("source/css"))
     .pipe(server.stream());
