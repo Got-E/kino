@@ -1,21 +1,23 @@
 .info {
-  padding-top: 259px;
-  padding-bottom: 400px;
+  width: 304px;
+  min-height: 510px;
+  margin: 0 auto;
+  margin-top: 75px;
+  padding-top: 48px;
   background-image: url("../img/ball.svg");
   background-repeat: no-repeat;
-  background-position: 50% 67%;
-  background-size: 730px 1230px;
+  background-size: 304px 510px;
 }
 
 .info__wrap {
   position: relative;
+  width: 247px;
+  min-height: 410px;
   margin: 0 auto;
-  padding-top: 130px;
-  padding-left: 643px;
-  width: 1396px;
-  min-height: 700px;
+  padding-top: 19px;
+  padding-bottom: 30px;
   color: $white;
-  background: $main-color-big;
+  background: $main-color-top;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
   opacity: 85%;
 
@@ -23,8 +25,8 @@
     content: "";
     display: block;
     position: absolute;
-    top: -247px;
-    left: 46%;
+    top: -106px;
+    left: 29%;
     width: 105px;
     height: 10px;
     background-image: url("../img/bold-points.png");
@@ -33,50 +35,239 @@
 }
 
 .info__logo-image {
-  position: absolute;
-  left: 140px;
-  top: 179px;
+  display: block;
+  width: 94px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 12px;
 }
 
 .info__title {
   margin: 0;
+  margin-bottom: 17px;
   font-family: "Dots", "Arial", sans-serif;
-  font-size: $font-size-vl;
+  font-size: 25px;
+  font-weight: 400;
   line-height: 1em;
+  text-align: center;
 }
 
 .info__subtitle {
   position: relative;
   margin: 0;
-  margin-top: 11px;
-  margin-left: 11px;
-  padding-bottom: 67px;
+  margin-bottom: 11px;
   font-family: "Basic", "Arial", sans-serif;
-  font-size: $font-size-xxl;
-  line-height: 2.654em;
-  letter-spacing: 3px;
-
-  &::after {
-    content: "";
-    position: absolute;
-    left: 3px;
-    bottom: 23px;
-    width: 150px;
-    height: 20px;
-    background-image: url("../img/points--white.svg");
-  }
+  font-size: $font-size-xxs;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.4px;
 }
 
 .info__content {
-  margin-top: 0;
-  margin-left: 16px;
-  width: 600px;
-  line-height: 1.666em;
+  display: block;
+  width: 215px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: $font-size-xxs;
+  line-height: 16px;
+  text-align: center;
 }
 
 .info__link {
-  margin-top: 40px;
-  margin-left: 15px;
-  width: 252px;
-  height: 48px;
+  width: 205px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .info {
+    width: 684px;
+    min-height: 1153px;
+    margin-top: 132px;
+    padding-top: 195px;
+    background-size: 684px 1153px;
+  }
+
+  .info__wrap {
+    width: 484px;
+    padding-top: 68px;
+    padding-bottom: 81px;
+
+    &::before {
+      top: -277px;
+      left: 39%;
+      background-image: url("../img/points.png");
+    }
+  }
+
+  .info__logo-image {
+    width: 176px;
+    height: 135px;
+    margin-bottom: 16px;
+  }
+
+  .info__title {
+    margin-bottom: 25px;
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  .info__subtitle {
+    margin-left: 76px;
+    margin-bottom: 22px;
+    font-size: $font-size-s;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: 1.6px;
+  }
+
+  .info__content {
+    margin: 0;
+    margin-left: 76px;
+    margin-bottom: 68px;
+    width: 280px;
+    font-size: $font-size;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .info__link {
+    height: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info {
+    width: 1200px;
+    min-height: 821px;
+    margin-top: 63px;
+    padding-top: 116px;
+    background-size: 488px 821px;
+    background-position: center;
+  }
+
+  .info__wrap {
+    width: 1004px;
+    min-height: 468px;
+    padding-left: 472px;
+    padding-top: 88px;
+    padding-bottom: 110px;
+
+    &::before {
+      width: 77px;
+      top: -167px;
+      left: 46.1%;
+      background-image: url("../img/bold-points.png");
+      background-size: cover;
+    }
+  }
+
+  .info__logo-image {
+    position: absolute;
+    top: 124px;
+    left: 127px;
+    width: 309px;
+    height: 226px;
+  }
+
+  .info__title {
+    margin-bottom: 20px;
+    margin-left: -8px;
+    font-size: 48px;
+    text-align: left;
+  }
+
+  .info__subtitle {
+    margin-bottom: 46px;
+    margin-left: 0;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+
+  .info__content {
+    position: relative;
+    width: 406px;
+    margin-left: 2px;
+    margin-bottom: 19px;
+    font-size: $font-size-s;
+    line-height: 22px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1px;
+      top: -15px;
+      width: 250px;
+      height: 20px;
+      background-image: url("../img/points--white.svg");
+      background-size: cover;
+    }
+  }
+
+  .info__link {
+    margin: 0;
+    width: 169px;
+    height: 32px;
+  }
+}
+
+@media (min-width: $lage-width) {
+  .info {
+    padding-top: 259px;
+    padding-bottom: 400px;
+    background-position: 50% 67%;
+    background-size: 730px 1230px;
+  }
+
+  .info__wrap {
+    position: relative;
+    padding-top: 130px;
+    padding-left: 643px;
+    width: 1396px;
+    min-height: 700px;
+    background: $main-color-big;
+  }
+
+  .info__logo-image {
+    position: absolute;
+    left: 140px;
+    top: 179px;
+  }
+
+  .info__title {
+    font-size: $font-size-vl;
+    line-height: 1em;
+  }
+
+  .info__subtitle {
+    margin-top: 11px;
+    margin-left: 11px;
+    padding-bottom: 67px;
+    font-size: $font-size-xxl;
+    line-height: 2.654em;
+    letter-spacing: 3px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 3px;
+      bottom: 23px;
+      width: 150px;
+      height: 20px;
+      background-image: url("../img/points--white.svg");
+    }
+  }
+
+  .info__content {
+    margin-top: 0;
+    margin-left: 16px;
+    width: 600px;
+  }
+
+  .info__link {
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 252px;
+    height: 48px;
+  }
 }

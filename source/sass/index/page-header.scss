@@ -10,6 +10,8 @@
   flex-wrap: wrap;
   margin: 0 auto;
   padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   &--button {
     padding-top: 27px;
@@ -125,6 +127,8 @@
   .page-header__inner {
     padding-top: 26px;
     padding-bottom: 173px;
+    padding-left: 0;
+    padding-right: 0;
 
     &--button {
       justify-content: space-between;
