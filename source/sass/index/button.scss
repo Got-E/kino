@@ -91,5 +91,10 @@
   .button {
     padding: 20px;
     font-size: $font-size;
+
+    &--small {
+      padding-top: 17px;
+      font-size: $font-size-xs;
+    }
   }
 }
