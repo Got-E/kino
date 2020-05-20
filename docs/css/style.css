@@ -508,6 +508,7 @@ html {
     padding-top: 12px;
     font-size: 15px; }
   .button--bord {
+    padding-top: 8px;
     color: #707070;
     background: #ffffff;
     border: solid 1px #707070; }
@@ -550,6 +551,7 @@ html {
   min-height: 510px;
   margin: 0 auto;
   margin-top: 75px;
+  margin-bottom: 55px;
   padding-top: 48px;
   background-image: url("../img/ball.svg");
   background-repeat: no-repeat;
@@ -771,13 +773,12 @@ html {
 .directions__title {
   position: relative;
   margin: 0 auto;
-  margin-top: 79px;
-  margin-bottom: 0;
-  width: 1100px;
+  margin-bottom: 82px;
+  width: 100%;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: #000000;
-  font-size: 61px;
-  line-height: 3em;
+  font-size: 30px;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center; }
   .directions__title::before {
@@ -785,187 +786,304 @@ html {
     position: absolute;
     top: -51px;
     left: -17px;
-    display: block;
+    display: none;
     width: 200px;
     height: 200px;
     background-image: url("../img/berd3.svg"); }
   .directions__title::after {
     content: "";
     position: absolute;
-    top: -39px;
-    right: 5px;
+    bottom: -63px;
+    right: 41%;
     display: block;
-    width: 200px;
-    height: 171px;
-    background-image: url("../img/berd4.svg"); }
+    width: 68px;
+    height: 56px;
+    background-image: url("../img/berd4.svg");
+    opacity: 0.6; }
 
 .directions__link {
   margin: 0 auto;
-  width: 328px;
-  height: 55px; }
+  width: 246px;
+  height: 39px;
+  opacity: 0.83; }
   .directions__link--courses {
-    margin-top: 111px;
-    margin-bottom: 136px; }
+    margin-top: 80px;
+    margin-bottom: 71px; }
 
 .directions__subtitle {
   position: relative;
   margin: 0;
-  margin-top: 32px;
-  margin-left: 122px;
-  margin-bottom: -260px;
+  margin-top: 37px;
+  margin-bottom: 51px;
   font-family: "Dots", "Arial", sans-serif;
-  font-size: 90px;
-  line-height: 3em; }
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center; }
   .directions__subtitle--decor::after {
     content: "";
     position: absolute;
     top: 50px;
     left: 698px;
-    display: block;
+    display: none;
     width: 3px;
     height: 160px;
     background: #e6e6e6; }
 
-.direction__inner {
-  margin: 0 auto;
-  width: 1640px; }
+@media (min-width: 1920px) {
+  .directions__title {
+    margin: 0 auto;
+    margin-top: 79px;
+    margin-bottom: 0;
+    width: 1100px;
+    font-size: 61px;
+    line-height: 3em; }
+    .directions__title::before {
+      top: -51px;
+      left: -17px;
+      display: block;
+      width: 200px;
+      height: 200px; }
+    .directions__title::after {
+      content: "";
+      top: -39px;
+      right: 5px;
+      display: block;
+      width: 200px;
+      height: 171px; }
+  .directions__link {
+    margin: 0 auto;
+    width: 328px;
+    height: 55px; }
+    .directions__link--courses {
+      margin-top: 111px;
+      margin-bottom: 136px; }
+  .directions__subtitle {
+    position: relative;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 122px;
+    margin-bottom: -260px;
+    font-size: 90px; }
+    .directions__subtitle--decor::after {
+      content: "";
+      top: 50px;
+      left: 698px;
+      display: block;
+      width: 3px;
+      height: 160px; }
+  .direction__inner {
+    margin: 0 auto;
+    width: 1640px; } }
 
 .direction-card {
   position: relative;
-  padding-top: 341px; }
+  padding-bottom: 73px; }
   .direction-card--back {
-    padding-top: 215px;
+    padding-top: 87px;
+    padding-bottom: 78px;
     background-color: #dedede; }
-    .direction-card--back .direction-card__wrap {
-      padding-left: 0; }
-      .direction-card--back .direction-card__wrap::before {
-        content: "";
-        position: absolute;
-        top: -163px;
-        right: -73px; }
-    .direction-card--back .direction-card__img {
-      left: auto;
-      right: 0; }
-    .direction-card--back .direction-card__title {
-      padding-top: 54px; }
-    .direction-card--back .direction-card__content {
-      width: 435px;
-      margin-top: 22px;
-      margin-bottom: 22px; }
-    .direction-card--back .direction-card__link {
-      margin-top: 33px; }
-    .direction-card--back .direction-card__subimg {
-      bottom: -117px;
-      left: 278px; }
     .direction-card--back::before {
       content: "";
       position: absolute;
-      top: -80px;
+      top: -40px;
       left: 50.3%;
       display: block;
-      width: 3px;
-      height: 160px;
+      width: 2px;
+      height: 80px;
       background: #e6e6e6; }
     .direction-card--back::after {
       content: "";
       position: absolute;
-      bottom: -80px;
+      bottom: -40px;
       left: 50.3%;
       display: block;
-      width: 3px;
-      height: 160px;
+      width: 2px;
+      height: 80px;
       background: #e6e6e6; }
+    .direction-card--back .direction-card__title {
+      margin-bottom: 31px; }
+    .direction-card--back .direction-card__link {
+      margin-top: 53px; }
+  .direction-card--prodgect {
+    padding-top: 119px;
+    padding-bottom: 75px; }
+
+.direction-card--back.direction-card--prodgect {
+  padding-top: 188px;
+  padding-bottom: 1px; }
+  .direction-card--back.direction-card--prodgect .direction-card__title {
+    margin-bottom: 19px; }
 
 .direction-card__wrap {
-  position: relative;
-  margin: 0 auto;
-  padding-left: 830px;
-  width: 1367px;
-  min-height: 593px; }
-  .direction-card__wrap::before {
-    content: "";
-    position: absolute;
-    top: -277px;
-    right: -102px;
-    z-index: 1;
-    width: 350px;
-    height: 350px;
-    background-image: url("../img/points--grey.svg");
-    background-repeat: то-repeat; }
+  width: 246px;
+  margin: 0 auto; }
+  .direction-card__wrap--no-link {
+    padding-bottom: 85px; }
 
 .direction-card__img {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0; }
-  .direction-card__img::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: block;
-    width: 50px;
-    height: 377px;
-    background-image: url("../img/border.png"); }
-  .direction-card__img::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    display: block;
-    width: 50px;
-    height: 377px;
-    background-image: url("../img/border.png"); }
-
-.direction-card__subimg {
-  position: absolute;
-  bottom: -111px;
-  left: 145px;
-  display: block;
-  width: 243px;
-  height: 243px;
-  border-radius: 50%;
-  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16); }
-  .direction-card__subimg--holidays {
-    background-image: url("../img/holidays.svg"); }
-  .direction-card__subimg--Festivals {
-    background-image: url("../img/Festivals.svg");
-    background-position: 0; }
+  display: none; }
 
 .direction-card__title {
-  position: relative;
   margin: 0;
-  padding-top: 50px;
+  margin-bottom: 13px;
   font-family: "Basic", "Arial", sans-serif;
-  font-size: 26px;
-  line-height: 1em;
+  font-size: 16px;
   color: #000000; }
-  .direction-card__title::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: 1px;
-    width: 117px;
-    height: 17px;
-    background-image: url("../img/points.svg");
-    background-position: 0 0; }
 
-.directions-card__subtitle {
-  margin-top: 19px;
-  margin-bottom: 0;
+.direction-card__subtitle {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 12px;
   color: #ff3c87; }
 
 .direction-card__content {
-  margin-top: 8px;
-  margin-bottom: 35px; }
+  margin: 0;
+  margin-bottom: 20px; }
 
 .direction-card__link {
-  margin-top: 15px;
-  width: 201px;
-  height: 45px; }
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 205px;
+  height: 40px;
+  margin-bottom: 15px;
+  opacity: 0.83; }
+
+.direction-card__link ~ .direction-card__link {
+  margin-top: 0; }
+
+.direction-card__link--mobile-none {
+  display: none; }
+
+@media (min-width: 1920px) {
+  .direction-card {
+    padding-top: 341px; }
+    .direction-card--back {
+      padding-top: 215px;
+      background-color: #dedede; }
+      .direction-card--back .direction-card__wrap {
+        padding-left: 0; }
+        .direction-card--back .direction-card__wrap::before {
+          content: "";
+          position: absolute;
+          top: -163px;
+          right: -73px; }
+      .direction-card--back .direction-card__img {
+        left: auto;
+        right: 0; }
+      .direction-card--back .direction-card__title {
+        padding-top: 54px; }
+      .direction-card--back .direction-card__content {
+        width: 435px;
+        margin-top: 22px;
+        margin-bottom: 22px; }
+      .direction-card--back .direction-card__link {
+        margin-top: 33px; }
+      .direction-card--back .direction-card__subimg {
+        bottom: -117px;
+        left: 278px; }
+      .direction-card--back::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        left: 50.3%;
+        display: block;
+        width: 3px;
+        height: 160px;
+        background: #e6e6e6; }
+      .direction-card--back::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 50.3%;
+        display: block;
+        width: 3px;
+        height: 160px;
+        background: #e6e6e6; }
+  .direction-card__wrap {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 830px;
+    width: 1367px;
+    min-height: 593px; }
+    .direction-card__wrap::before {
+      content: "";
+      position: absolute;
+      top: -277px;
+      right: -102px;
+      z-index: 1;
+      width: 350px;
+      height: 350px;
+      background-image: url("../img/points--grey.svg");
+      background-repeat: то-repeat; }
+  .direction-card__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .direction-card__img::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: block;
+      width: 50px;
+      height: 377px;
+      background-image: url("../img/border.png"); }
+    .direction-card__img::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      display: block;
+      width: 50px;
+      height: 377px;
+      background-image: url("../img/border.png"); }
+  .direction-card__subimg {
+    position: absolute;
+    bottom: -111px;
+    left: 145px;
+    display: block;
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16); }
+    .direction-card__subimg--holidays {
+      background-image: url("../img/holidays.svg"); }
+    .direction-card__subimg--Festivals {
+      background-image: url("../img/Festivals.svg");
+      background-position: 0; }
+  .direction-card__title {
+    position: relative;
+    margin: 0;
+    padding-top: 50px;
+    font-family: "Basic", "Arial", sans-serif;
+    font-size: 26px;
+    line-height: 1em;
+    color: #000000; }
+    .direction-card__title::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 15px;
+      left: 1px;
+      width: 117px;
+      height: 17px;
+      background-image: url("../img/points.svg");
+      background-position: 0 0; }
+  .directions-card__subtitle {
+    margin-top: 19px;
+    margin-bottom: 0;
+    color: #ff3c87; }
+  .direction-card__content {
+    margin-top: 8px;
+    margin-bottom: 35px; }
+  .direction-card__link {
+    margin-top: 15px;
+    width: 201px;
+    height: 45px; } }
 
 .services__title {
   margin-top: 242px;

@@ -1,13 +1,12 @@
 .directions__title {
   position: relative;
   margin: 0 auto;
-  margin-top: 79px;
-  margin-bottom: 0;
-  width: 1100px;
+  margin-bottom: 82px;
+  width: 100%;
   font-family: "AA Haymaker", "Arial", sans-serif;
   color: $blak;
-  font-size: $font-size-sl;
-  line-height: 3em;
+  font-size: 30px;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center;
 
@@ -16,7 +15,7 @@
     position: absolute;
     top: -51px;
     left: -17px;
-    display: block;
+    display: none;
     width: 200px;
     height: 200px;
     background-image: url("../img/berd3.svg");
@@ -25,49 +24,109 @@
   &::after {
     content: "";
     position: absolute;
-    top: -39px;
-    right: 5px;
+    bottom: -63px;
+    right: 41%;
     display: block;
-    width: 200px;
-    height: 171px;
+    width: 68px;
+    height: 56px;
     background-image: url("../img/berd4.svg");
+    opacity: 0.6;
   }
 }
 
 .directions__link {
   margin: 0 auto;
-  width: 328px;
-  height: 55px;
+  width: 246px;
+  height: 39px;
+  opacity: 0.83;
 
   &--courses {
-    margin-top: 111px;
-    margin-bottom: 136px;
+    margin-top: 80px;
+    margin-bottom: 71px;
   }
 }
 
 .directions__subtitle {
   position: relative;
   margin: 0;
-  margin-top: 32px;
-  margin-left: 122px;
-  margin-bottom: -260px;
+  margin-top: 37px;
+  margin-bottom: 51px;
   font-family: "Dots", "Arial", sans-serif;
-  font-size: $font-size-el;
-  line-height: 3em;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
 
   &--decor::after {
     content: "";
     position: absolute;
     top: 50px;
     left: 698px;
-    display: block;
+    display: none;
     width: 3px;
     height: 160px;
     background: #e6e6e6;
   }
 }
 
-.direction__inner {
-  margin: 0 auto;
-  width: 1640px;
+@media (min-width: $lage-width) {
+  .directions__title {
+    margin: 0 auto;
+    margin-top: 79px;
+    margin-bottom: 0;
+    width: 1100px;
+    font-size: $font-size-sl;
+    line-height: 3em;
+
+    &::before {
+      top: -51px;
+      left: -17px;
+      display: block;
+      width: 200px;
+      height: 200px;
+    }
+
+    &::after {
+      content: "";
+      top: -39px;
+      right: 5px;
+      display: block;
+      width: 200px;
+      height: 171px;
+    }
+  }
+
+  .directions__link {
+    margin: 0 auto;
+    width: 328px;
+    height: 55px;
+
+    &--courses {
+      margin-top: 111px;
+      margin-bottom: 136px;
+    }
+  }
+
+  .directions__subtitle {
+    position: relative;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 122px;
+    margin-bottom: -260px;
+    font-size: $font-size-el;
+
+    &--decor::after {
+      content: "";
+      top: 50px;
+      left: 698px;
+      display: block;
+      width: 3px;
+      height: 160px;
+    }
+  }
+
+  .direction__inner {
+    margin: 0 auto;
+    width: 1640px;
+  }
 }
